@@ -87,12 +87,12 @@ return (
       <Container maxWidth="lg">
                 <Grid item lg={12} md={12} sm={12} xs={12}>
                   <Box component="span" sx={{ textAlign: 'center',color: '#212121',width: '50px',ml: 2}}>
-                    It starts with when - the new Doodle is here. Find out more
+                    A new booktime is coming to help you to schedule the meetings, events and activities. 
                   </Box>
-                  <Box component="span"  sx={{ textAlign: 'center',color:'#000',float: 'right', width: '50px',ml: 2, mr: 1, background:'#fff'}}>
+                  <Box component="span"  sx={{ textAlign: 'center',color:'#000',float: 'right', width: '50px',ml: 2, mr: 1, pt: 1, background:'#fff'}}>
                     <IconBrandGithub/>
                   </Box>
-                  <Box component="span"  sx={{ textAlign: 'center',color:'#fff',float: 'right', width: '50px', mr: 0, background:'#212121',paddingTop: '8px'}}}>
+                  <Box component="span"  sx={{ textAlign: 'center',color:'#fff',float: 'right', width: '50px', mr: 0, background:'#212121'}}>
                     Login 
                   </Box>
                 </Grid>
@@ -121,10 +121,10 @@ return (
         <Grid container spacing={3} sx={{ backgroundImage:{introPic} }}>
             <Grid item lg={6} md={12} sm={12} xs={12} >
                 <Box sx={{ lineHeight: '70px', fontSize: '65px', color: 'black', fontWeight: '600', pt:12,pb:4}}>
-                      Professional scheduling made easy
+                      Professional scheduling made life easy
                 </Box>
                 <Box sx={{ fontSize: '20px', lineHeight: '30px',color: 'black' , pr: 12, mb:5}}>
-                    Doodle is the fastest and easiest way to schedule anything — from meetings to the next great collaboration.
+                    BT provides a simple soution to  schedule anything — from meetings to the next great collaboration.
                  </Box>
                   <Box>
                     <BlackBigLoginButton variant="contained" > Create a timesheet
@@ -166,10 +166,10 @@ return (
                         />
                         <CardContent>
                           <Typography gutterBottom variant="h3" component="div">
-                            Get to talking to prospects faster
+                            Bring you client to business faster
                           </Typography>
                           <Typography variant="body2" color="text.secondary">
-                      Make it easy for prospects and clients to book your time. All with a completely professional experience.
+                          Meet, schedule, book and done. BT here to help you clients to book your time  with a completely professional experience.
                           </Typography>
                         </CardContent>
                       </Card>
@@ -187,7 +187,9 @@ return (
                             Find the right time for any number of people
                           </Typography>
                           <Typography variant="body2" color="text.secondary">
-                            Get board activities scheduled quickly, no matter how complicated their schedules are.
+                            No more back and forth to communicate in a group to find the best time to fit in 
+                            everyone's schedule. BT's group poll helps you figure out the soution.
+
                           </Typography>
                         </CardContent>
                       </Card>
@@ -205,7 +207,9 @@ return (
                             Focus on learning, not scheduling
                           </Typography>
                           <Typography variant="body2" color="text.secondary">
-                            Easy scheduling for just about any kind of educational meeting—so your staff can focus on the real work.
+                            Never be easy to find the right time for a group study or group fun. 
+                            BT is here to help to coordinate and invite Professors/members in a professional way. 
+                            No hassle any more. 
                           </Typography>
                         </CardContent>
                       </Card>
