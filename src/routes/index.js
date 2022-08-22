@@ -8,5 +8,5 @@ import LandingRoutes from './LandingRoutes';
 // ==============================|| ROUTING RENDER ||============================== //
 
 export default function ThemeRoutes() {
-    return useRoutes([LandingRoutes]);
+    return useRoutes([LandingRoutes,MainRoutes,AuthenticationRoutes]);
 }
