@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useRoutes } from 'react-router-dom';
 
 // routes
@@ -7,5 +8,5 @@ import LandingRoutes from './LandingRoutes';
 // ==============================|| ROUTING RENDER ||============================== //
 
 export default function ThemeRoutes() {
-    return useRoutes([LandingRoutes, MainRoutes, AuthenticationRoutes]);
+    return useRoutes([LandingRoutes]);
 }
