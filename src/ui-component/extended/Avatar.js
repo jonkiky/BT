@@ -11,8 +11,6 @@ const Avatar = ({ color, outline, size, sx, ...others }) => {
 
     const colorSX = color && !outline && { color: theme.palette.background.paper, bgcolor: `${color}.main` };
     const outlineSX = outline && {
-        color: color ? `${color}.main` : `primary.main`,
-        bgcolor: theme.palette.background.paper,
         border: '2px solid',
         borderColor: color ? `${color}.main` : `primary.main`
     };

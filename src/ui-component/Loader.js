@@ -1,6 +1,8 @@
+/* eslint-disable */
 // material-ui
 import LinearProgress from '@mui/material/LinearProgress';
 import { styled } from '@mui/material/styles';
+import { withStyles } from '@mui/styles';
 
 // styles
 const LoaderWrapper = styled('div')({
@@ -11,11 +13,20 @@ const LoaderWrapper = styled('div')({
     width: '100%'
 });
 
+const styles = (props) => ({
+    colorPrimary: {
+        backgroundColor: '#000'
+    },
+    barColorPrimary: {
+        backgroundColor: '#000'
+    }
+});
+
 // ==============================|| LOADER ||============================== //
-const Loader = () => (
+const Loader = (classes) => (
     <LoaderWrapper>
-        <LinearProgress color="primary" />
+        <LinearProgress classes={{colorPrimary: classes.colorPrimary, barColorPrimary: classes.barColorPrimary}} />
     </LoaderWrapper>
 );
 
-export default Loader;
+export default withStyles(styles)(Loader);
