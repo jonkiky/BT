@@ -4,6 +4,7 @@ import { Typography } from '@mui/material';
 import { Box, Grid, Button, Container} from '@mui/material';
 import { useTheme, styled } from '@mui/material/styles';
 import { IconArrowNarrowRight, IconBrandGithub } from '@tabler/icons';
+import { Link } from "react-router-dom";
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -90,7 +91,7 @@ return (
                     A new booktime is coming to help you to schedule the meetings, events and activities. 
                   </Box>
                   <Box component="span"  sx={{ textAlign: 'center',color:'#000',float: 'right', width: '50px',ml: 2, mr: 1, pt: 1, background:'#fff'}}>
-                    <IconBrandGithub/>
+                    <a href="https://github.com/jonkiky/BT" target= "_blank"> <IconBrandGithub/> </a>
                   </Box>
                   <Box component="span"  sx={{ textAlign: 'center',color:'#fff',float: 'right', width: '50px', mr: 0, background:'#212121'}}>
                     Login 
@@ -300,7 +301,7 @@ return (
                   <Grid container>
                     <Grid item lg={12} md={12} sm={12} xs={12} sx={{textAlign:'center', lineHeight: '280px'}}>
                         <Box sx={{lineHeight: '45px', fontSize: '45px', color: '#fff', fontWeight: '600', pt:10,pb:5}}>
-                    jonkiky@gmail.com
+                    ychen315040@gmail.com
                       </Box>
                     </Grid>
                  </Grid>
@@ -318,13 +319,10 @@ return (
 
                     </Grid>
                     <Grid item lg={12} md={12} sm={12} xs={12}  sx={{ pt:3, m:0}} >
-                      Copyright © 2022 Y&L Solution LLC.  All Rights Reserved. Design BY &hearts; Jonkiky 
+                      Copyright © 2022 Y&L Solution LLC.  All Rights Reserved. Design BY &hearts; Jonkiky  &nbsp;
+                      <Box component="span" sx={{background:'#FFA500',color: '#000', p :0.5,m:0.5 }}>Beta Version</Box>
                     </Grid>
-                     <Grid item lg={12} md={12} sm={12} xs={12}  sx={{ pt:3, m:0}} >
-                            <Box sx={{margin: 'auto',lineHeight: '25px', fontSize: '18px', color: '#fff', fontWeight: '600', pt:1,pb:1, width:"200px",border: '#fff solid 3px',borderRadius: '25px'}}>
-                                   Beta version
-                            </Box>
-                    </Grid>
+                    
                  </Grid>
 
               </Container>
